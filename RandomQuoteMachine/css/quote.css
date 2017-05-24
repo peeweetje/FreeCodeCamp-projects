@@ -1,0 +1,92 @@
+
+
+
+body {
+  background: url("https://images.unsplash.com/photo-1444424050109-31f057e1e858?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=fe78a2fd285274f8a386db552d8bb7e6") center center no-repeat fixed;
+  background-size: cover;
+ 
+}
+
+
+
+.flex-item {
+   background-color: rgba(255,255,255, .3);
+   border-radius: 25px;
+   width: 75%;
+   min-height: 100vh;
+   margin: 12.5%;
+   margin-top: 5%;
+}
+
+h1{
+	text-align: center;
+	color: #EFDFBB;
+	margin-top: 10%;
+	font-family: 'Lobster' ;
+  font-size: 50px;
+    
+}
+
+
+
+
+
+#quote{
+    float: right;
+    margin-right:18.0em;
+    width: 15%;
+    text-align: center;
+	  border-width: 1px;
+	  border-radius: 15px;
+	  background-color: #EFDFBB;
+    box-shadow: 5px 5px 5px #888888;
+    font-size: 22px;
+    color:#000;
+    font-family: 'Lobster',cursive ;
+    padding-top:10px;
+    padding-bottom: 10px;
+    opacity: 0.9;
+    
+	
+
+}
+
+#tweet{
+  float:left;
+  margin-left: 2.5em;
+  margin-bottom: 1.5em;
+  border-style: solid 5px;
+  border-radius: 50px;
+  color: #000;
+  opacity:0.9;
+
+}
+
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover{
+	background-color: #EFDFBB;
+}
+
+
+.quote{
+	text-align: center;
+	font-family: "Lobster", cursive;
+	font-size: 3.5em;
+	padding-top: 3.0em;
+}
+
+
+.author{
+	text-align: center;
+	font-family: "Lobster", cursive;
+	font-size: 1.5em;
+}
+
+.twitter-share-button{
+  font-size: 30px;
+}
