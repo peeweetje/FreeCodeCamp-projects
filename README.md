@@ -24,7 +24,7 @@ Use an Internet Protocol API to get user location (ex. IP-API) and then use the 
 
 
 
-**RANDOM QUOTE MACHINE:**
+## random quote machine:
 
 
 https://codepen.io/PJDesign/pen/zqMjjd
