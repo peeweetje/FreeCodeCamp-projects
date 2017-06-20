@@ -17,3 +17,19 @@ Use HTML5 Geolocation to get user location and then use the Dark Sky API which u
 Or:
 
 Use an Internet Protocol API to get user location (ex. IP-API) and then use the OpenWeatherMap API for the weather.
+
+
+
+
+
+https://codepen.io/PJDesign/pen/zqMjjd
+
+RANDOM QU0TE MACHINE
+
+User Story:
+
+Use whichever libraries or APIs you need. Give it your own personal style.
+
+I can click a button to show me a new random quote.
+
+I can press a button to tweet out a quote.
