@@ -1,8 +1,10 @@
 # FreeCodeCamp-projects
 
-https://codepen.io/PJDesign/pen/ONYZVX
+
 
 LOCAL WEATHER APP:
+
+https://codepen.io/PJDesign/pen/ONYZVX
 
 User Story: 
 
@@ -27,9 +29,11 @@ Use an Internet Protocol API to get user location (ex. IP-API) and then use the 
 
 
 
-https://codepen.io/PJDesign/pen/zqMjjd
 
-RANDOM QU0TE MACHINE
+RANDOM QU0TE MACHINE:
+
+
+https://codepen.io/PJDesign/pen/zqMjjd
 
 User Story:
 
