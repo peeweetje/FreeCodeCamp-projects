@@ -8,9 +8,9 @@ https://codepen.io/PJDesign/pen/ONYZVX
 
 User Story: 
 
-I can see the weather in my current location.
-I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather.
-I can push a button to toggle between Fahrenheit and Celsius.
+* I can see the weather in my current location.
+* I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather.
+* I can push a button to toggle between Fahrenheit and Celsius.
 
 Note: Many internet browsers now require an HTTP Secure (https://) connection to obtain a user's locale via HTML5 Geolocation. For this reason, you will need to choose one of two paths to complete this project:
 
