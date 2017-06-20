@@ -30,6 +30,19 @@ Use an Internet Protocol API to get user location (ex. IP-API) and then use the 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 RANDOM QU0TE MACHINE:
 
 
