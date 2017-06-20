@@ -22,6 +22,11 @@ Use an Internet Protocol API to get user location (ex. IP-API) and then use the 
 
 
 
+
+
+
+
+
 https://codepen.io/PJDesign/pen/zqMjjd
 
 RANDOM QU0TE MACHINE
