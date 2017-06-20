@@ -32,3 +32,14 @@ User Story:
 >* Use whichever libraries or APIs you need. Give it your own personal style.
 >* I can click a button to show me a new random quote.
 >* I can press a button to tweet out a quote.
+
+
+## wikipedia viewer:
+
+https://codepen.io/PJDesign/pen/KqdyEJ
+
+User Story:
+
+>* Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.
+>* I can search Wikipedia entries in a search box and see the resulting Wikipedia entries.
+>* I can click a button to see a random Wikipedia entry.
