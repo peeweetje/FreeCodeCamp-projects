@@ -2,7 +2,7 @@
 
 
 
-#LOCAL WEATHER APP:#
+# LOCAL WEATHER APP:
 
 https://codepen.io/PJDesign/pen/ONYZVX
 
