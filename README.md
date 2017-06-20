@@ -1,6 +1,6 @@
 # FreeCodeCamp-projects
 
-Local weather app:
+LOCAL WEATHER APP:
 
 User Story: 
 
