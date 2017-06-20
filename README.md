@@ -30,7 +30,5 @@ https://codepen.io/PJDesign/pen/zqMjjd
 User Story:
 
 >* Use whichever libraries or APIs you need. Give it your own personal style.
-
 >* I can click a button to show me a new random quote.
-
 >* I can press a button to tweet out a quote.
