@@ -1,0 +1,40 @@
+body{
+  background-color: #F5F5DC;
+}
+
+.container {
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px #000000;
+  background: linear-gradient(51deg, rgba(95, 52, 186, 1) 0.14%, rgba(140, 117, 189, 1) 99.61%);
+  background-color: #6441A5;
+  background-image: url(twitch1.png);
+  background-size: 350px 250px;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: 'EB Garamond', serif;
+}
+
+h1 {
+  color: #FFF;
+}
+
+
+.table {
+  background-position: center;
+  margin-top: 10em;
+  font-size: 20px;
+  border: 1px solid white;
+  box-shadow: 5px -3px 7px #000;
+  width: 100%;
+}
+
+th {
+  font-size: 2em;
+  color: #fff;
+}
+
+td {
+  font-size: 2em;
+  background-color:#F5F5DC;
+
+}
