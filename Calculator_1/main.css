@@ -1,0 +1,29 @@
+body {
+  background-color: #00C4B0;
+}
+
+#name {
+  margin-top: 5em;
+  margin-left: 27em;
+}
+
+#input {
+  width: 300px;
+  padding: 30px;
+  background: -ms-linear-gradient(3deg, rgba(95, 171, 193, 1) 0.00%, rgba(141, 98, 178, 1) 99.74%);
+  background: -webkit-linear-gradient(3deg, rgba(95, 171, 193, 1) 0.00%, rgba(141, 98, 178, 1) 99.74%);
+  background: -moz-linear-gradient(3deg, rgba(95, 171, 193, 1) 0.00%, rgba(141, 98, 178, 1) 99.74%);
+  background: -o-linear-gradient(3deg, rgba(95, 171, 193, 1) 0.00%, rgba(141, 98, 178, 1) 99.74%);
+  background: linear-gradient(3deg, rgba(95, 171, 193, 1) 0.00%, rgba(141, 98, 178, 1) 99.74%);
+  border-radius: 15px;
+}
+
+#btn {
+  width: 100%;
+  height: 5px;
+  padding: 15px 20px 40px 20px;
+  font-family: monospace;
+  text-align: center;
+  font-size: 25px;
+  background: #c6e5d9;
+}

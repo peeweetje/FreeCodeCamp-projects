@@ -1,0 +1,58 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Petra Vos - Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <form Name="calc" id="name">
+    <table id="input" border=3>
+      <tr class="display">
+        <!--char codes 48 to 57 represent the number keys 0 - 9 ,  it will evaluate to true for any character that is not a number-->
+        <td colspan=4><input id="btn" name="input" onkeypress="return event.charCode >= 48 && event.charCode <= 57" type="text"></td>
+      </tr>
+      <tr>
+        <!--  onClick: if it's clicked, execute the code in the onClick.
+The actual value of the input is only modified with these += (append to).
+(If your current input is 6 + and you click 4, then 4 will be appended: it is now 6 + 4)-->
+        <td><input id="btn" type=button value="7" onclick="calc.input.value+='7'"></td>
+        <td><input id="btn" type=button value="8" onclick="calc.input.value+='8'"></td>
+        <td><input id="btn" type=button value="9" onclick="calc.input.value+='9'"></td>
+        <td><input id="btn" type=button value="+" onclick="calc.input.value+='+'"></td>
+      </tr>
+      <tr>
+        <td><input id="btn" type=button value="4" onclick="calc.input.value+='4'"></td>
+        <td><input id="btn" type=button value="5" onclick="calc.input.value+='5'"></td>
+        <td><input id="btn" type=button value="6" onclick="calc.input.value+='6'"></td>
+        <td><input id="btn" type=button value="-" onclick="calc.input.value+='-'"></td>
+      </tr>
+      <tr>
+        <td><input id="btn" type=button value="1" onclick="calc.input.value+='1'"></td>
+        <td><input id="btn" type=button value="2" onclick="calc.input.value+='2'"></td>
+        <td><input id="btn" type=button value="3" onclick="calc.input.value+='3'"></td>
+        <td><input id="btn" type=button value="x" onclick="calc.input.value+='*'"></td>
+      </tr>
+      <tr>
+        <td><input id="btn" type=button value="0" onclick="calc.input.value+='0'"></td>
+        <td><input id="btn" type=button value="." onclick="calc.input.value+='.'"></td>
+        <td><input id="btn" type=button value="C" onclick="calc.input.value=''"></td>
+        <td><input id="btn" type=button value="&divide" onclick="calc.input.value+='/'"></td>
+      </tr>
+      <tr>
+        <td><input id="btn" type=button></td>
+        <td><input id="btn" type=button></td>
+        <td><input id="btn" type=button></td>
+        <!--  eval(Calc.Input.value) is interpreting the value of the input as Javascript-->
+        <td><input id="btn" type=button value="=" onclick="calc.input.value=eval(calc.input.value)"></td>
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+<script src="index.js">
+</script>
