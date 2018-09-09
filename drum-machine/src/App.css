@@ -1,13 +1,27 @@
-.App {
-  text-align: center;
-}
-
 body {
   background-image: url("img/james-owen-653039-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.App {
+  text-align: center;
+}
+
 .App-header {
   color: white;
+}
+.container {
+}
+.drum-pad {
+  color: #fff;
+  display: inline-flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  background-color: rgb(157, 196, 214);
+  text-align: center;
 }
