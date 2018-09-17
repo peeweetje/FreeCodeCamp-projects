@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Drumpad from "./Drumpad";
 import "./App.css";
 
 const drumdata = [
@@ -61,15 +62,11 @@ const drumdata = [
 class App extends Component {
   constructor(props) {
     super(props);
+
     this.state = {
       title: "Drum machine"
     };
   }
-
-  handleSound = () => {
-    this.audio.play();
-    //console.log("clicked");
-  };
 
   render() {
     return (
@@ -80,24 +77,17 @@ class App extends Component {
 
         <div className="container" id="drum-machine">
           <div id="display" />
-          {drumdata.map(data => (
-            <div
-              className="drum-pad"
-              id={data.keyPad}
-              onClick={this.handleSound}
-              key={data.id}
-            >
-              <p>{data.keyPad}</p>
-              <audio
-                className="clip"
-                ref={ref => (this.audio = ref)}
-                src={data.src}
-                id={data.keyPad}
+          <div id="drum-pad">
+            {drumdata.map(data => (
+              <Drumpad
                 key={data.id}
+                id={data.id}
+                keyPad={data.keyPad}
+                src={data.src}
               />
-            </div>
-          ))}
-          ;
+            ))}
+            ;
+          </div>
         </div>
       </div>
     );
