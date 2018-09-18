@@ -3,6 +3,7 @@ import React, { Component } from "react";
 export default class Drumpad extends Component {
   handleSound = () => {
     this.audio.play();
+    this.props.handleDisplay(this.props.id);
   };
 
   componentDidMount() {
@@ -31,7 +32,6 @@ export default class Drumpad extends Component {
           className="clip"
           src={this.props.src}
           ref={ref => (this.audio = ref)}
-          onKeyPress={this.handleKeyPress}
         />
       </div>
     );

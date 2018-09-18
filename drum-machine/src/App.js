@@ -64,9 +64,15 @@ class App extends Component {
     super(props);
 
     this.state = {
-      title: "Drum machine"
+      title: "Drum machine",
+      display: ""
     };
   }
+
+  handleDisplay = display =>
+    this.setState({
+      display
+    });
 
   render() {
     return (
@@ -76,7 +82,7 @@ class App extends Component {
         </header>
 
         <div className="container" id="drum-machine">
-          <div id="display" />
+          <div id="display">{this.state.display}</div>
           <div id="drum-pad">
             {drumdata.map(data => (
               <Drumpad
@@ -84,6 +90,7 @@ class App extends Component {
                 id={data.id}
                 keyPad={data.keyPad}
                 src={data.src}
+                handleDisplay={this.handleDisplay}
               />
             ))}
             ;
