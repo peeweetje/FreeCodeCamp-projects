@@ -65,7 +65,7 @@ class App extends Component {
 
     this.state = {
       title: "Drum machine",
-      display: ""
+      display: "Click on keypad"
     };
   }
 

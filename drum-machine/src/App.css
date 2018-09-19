@@ -9,23 +9,110 @@ body {
 }
 
 .App-header {
+  display: inline-flex;
+  flex-direction: row;
+  align-content: center;
+  margin-top: 90px 0px 0px 50px;
   color: white;
+  color: rgba(255, 255, 255, 0.507);
+  text-decoration-line: underline;
 }
 .container {
+  margin-top: 150px;
 }
 .drum-pad {
-  color: #fff;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
   display: inline-flex;
   flex-direction: row;
   align-content: center;
   justify-content: center;
-  width: 80px;
-  height: 80px;
-  margin: 10px;
-  background-color: rgb(157, 196, 214);
   text-align: center;
+  border-radius: 5px;
+  box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.507);
+  background-color: rgba(91, 109, 158, 0.164);
+  animation-name: keypad;
+  animation-duration: 10s;
+  animation-delay: -2s;
+  animation-timing-function: ease-out;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.drum-pad:hover {
+  opacity: 1;
+  color: #fff;
 }
 
 #display {
-  color: #fff;
+  width: 25%;
+  display: inline-flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  margin: 70px 0px 0px 70px;
+  padding: 26px;
+  border-radius: 5px;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.507);
+  background-color: rgba(91, 109, 158, 0.164);
+  box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+@-webkit-keyframes keypad {
+  0% {
+    background-color: rgba(129, 155, 156, 0.164);
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: rgba(87, 144, 151, 0.363);
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: rgba(93, 163, 163, 0.308);
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: rgba(80, 161, 161, 0.219);
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: rgba(64, 180, 171, 0.452);
+    left: 0px;
+    top: 0px;
+  }
+}
+
+/* Standard syntax */
+@keyframes keypad {
+  0% {
+    background-color: rgba(129, 155, 156, 0.164);
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: rgba(87, 144, 151, 0.363);
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: rgba(93, 163, 163, 0.308);
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: rgba(80, 161, 161, 0.219);
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: rgba(64, 180, 171, 0.452);
+    left: 0px;
+    top: 0px;
+  }
 }
