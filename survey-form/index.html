@@ -13,6 +13,190 @@
           Thank you for taking the time to fill in the form.
         </p>
       </header>
+      <form id="survey-form" class="survey-from">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your Email"
+            required
+          />
+          <label id="number-label" for="number"
+            >Age<span class="clue">(optional)</span></label
+          >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            class="form-control"
+            placeholder="Age"
+          />
+          <p>What are your favorite shows on Netflix?</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Select favorite show</option>
+            <option value="show1">Stranger things</option>
+            <option value="show2">Love is blind</option>
+            <option value="show3">The Witcher</option>
+            <option value="show4">The stranger</option>
+            <option value="other">Other</option>
+          </select>
+          <p>Would you watch a show on Netflix?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Definitely</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />Maybe</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Not sure</label
+          >
+          <p>
+            What do you like about Netflix?
+          </p>
+          <select id="most-like" name="mostLike" class="form-control" required>
+            <option disabled selected value>Select an option</option>
+            <option value="shows">Shows</option>
+            <option value="movies">Movies</option>
+            <option value="documentary">Documentary</option>
+            <option value="real">Real live</option>
+          </select>
+
+          <p>
+            What would you like to say About Netflix?
+            <span class="clue">(Check all that apply)</span>
+          </p>
+
+          <label
+            ><input
+              name="prefer"
+              value="more-shows"
+              type="checkbox"
+              class="input-checkbox"
+            />More shows from my own country</label
+          >
+          <label>
+            <input
+              name="prefer"
+              value="more-movies"
+              type="checkbox"
+              class="input-checkbox"
+            />More movies</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="favorite-show"
+              type="checkbox"
+              class="input-checkbox"
+            />I want a list of my favorite shows</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="more reality"
+              type="checkbox"
+              class="input-checkbox"
+            />More reality shows</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="show-favorite-show"
+              type="checkbox"
+              class="input-checkbox"
+            />Show my favorite shows</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="no-advertisment"
+              type="checkbox"
+              class="input-checkbox"
+            />No advertisment</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="documentary"
+              type="checkbox"
+              class="input-checkbox"
+            />more documentaries</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="love-netflix"
+              type="checkbox"
+              class="input-checkbox"
+            />I love Netflix the way it is</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="cheap"
+              type="checkbox"
+              class="input-checkbox"
+            />Make it cheaper</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="no-netflix"
+              type="checkbox"
+              class="input-checkbox"
+            />I don't like Netflix</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="quality-show"
+              type="checkbox"
+              class="input-checkbox"
+            />More quality shows</label
+          >
+          <p>Any comments or suggestions?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here..."
+          ></textarea>
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
     </div>
   </body>
 </html>
