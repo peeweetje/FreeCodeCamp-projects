@@ -1,29 +1,40 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #header {
   padding: 60px;
-  height: 150px;
+  height: 125px;
   text-align: center;
   background: #62361f;
-  color: white;
+  color: #fff;
   font-size: 30px;
 }
 
 #header-img {
   border-radius: 5px;
-  width: 40%;
+  width: 25%;
+  height: auto;
 }
 
 .ul-style {
   display: flex;
   justify-content: center;
+  margin: 5px;
+  list-style: none;
 }
 .li-style {
   width: 28rem;
 }
-
 .nav-link {
   text-decoration: none;
   color: #333;
-  font-size: 30px;
+  font-size: 26px;
+}
+
+.nav-link:hover {
+  color: #837a76;
 }
