@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+#header {
+  padding: 60px;
+  height: 150px;
+  text-align: center;
+  background: #62361f;
+  color: white;
+  font-size: 30px;
+}
+
+#header-img {
+  border-radius: 5px;
+  width: 40%;
+}
