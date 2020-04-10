@@ -17,14 +17,15 @@ body {
 #header-img {
   border-radius: 5px;
   width: 25%;
-  height: auto;
 }
 
 .ul-style {
   display: flex;
   justify-content: center;
-  margin: 5px;
   list-style: none;
+  border-bottom: 2px solid #ddd;
+  border-top: 2px solid #ddd;
+  padding: 40px;
 }
 .li-style {
   width: 28rem;
