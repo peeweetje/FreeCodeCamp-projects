@@ -17,6 +17,7 @@ body {
 #header-img {
   border-radius: 5px;
   width: 25%;
+  box-shadow: 4px 4px 5px -4px rgba(20, 20, 19, 1);
 }
 
 .ul-style {
@@ -33,7 +34,7 @@ body {
 .nav-link {
   text-decoration: none;
   color: #333;
-  font-size: 26px;
+  font-size: 20px;
 }
 
 .nav-link:hover {
