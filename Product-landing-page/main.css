@@ -9,7 +9,7 @@ body {
   padding: 60px;
   height: 125px;
   text-align: center;
-  background: #62361f;
+  background: linear-gradient(to bottom, #f0b7a1 0%, #bf6e4e 0%, #8c3310 100%);
   color: #fff;
   font-size: 30px;
 }
