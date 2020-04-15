@@ -5,6 +5,13 @@ body {
   padding: 0;
 }
 
+h2,
+h3,
+p {
+  display: flex;
+  justify-content: center;
+}
+
 .page-container {
   height: 100vh;
 }
